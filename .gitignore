@@ -1,0 +1,12 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore build artifacts
+*.out
+*.o
+*.exe
+*.bin
+
+# Optional: OS/system files
+.DS_Store
+Thumbs.db
