@@ -1,4 +1,4 @@
-# 📚 DSA Practice Repository  
+# 📚 DSA Practice
 
 ![Language](https://img.shields.io/badge/language-C++-blue)  
 
