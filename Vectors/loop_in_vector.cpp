@@ -44,6 +44,11 @@ int main() {
 }
 cout << endl;
 
+// while loop
+int idx=0;
+while(idx<<v.size()){
+    cout<<v[idx++]<<"";
+}
     return 0;
 }
 
