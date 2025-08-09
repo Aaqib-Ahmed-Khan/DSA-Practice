@@ -28,7 +28,7 @@ int main() {
 
     for (int i = 0; i < 5; i++) {
         int element;
-        cin >> element;
+        cin >> element;  
         v.push_back(element);
     }
 
@@ -50,5 +50,7 @@ while(idx<<v.size()){
     cout<<v[idx++]<<"";
 }
     return 0;
+
+
 }
 
