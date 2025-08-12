@@ -36,8 +36,11 @@ public:
                 if(arr[i]+arr[j]==target){
                     v[0]= i;
                     v[1]= j;
+
+                    arr.push_back(10);
                     return v;
                 }
             }
         }   return v; }
 };
+
