@@ -38,9 +38,11 @@ public:
                     v[1]= j;
 
                     arr.push_back(10);
+                    cout<<arr.capacity()<<endl;
                     return v;
                 }
             }
         }   return v; }
 };
+
 
