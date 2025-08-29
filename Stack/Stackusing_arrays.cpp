@@ -15,7 +15,7 @@ Stack(int c){
 void push(int data){
     if(this->top == this->capacity -1){
         cout<<"overflow\n";
-        return;
+        return; 
     }
     this->top++;
     this->arr[this->top]=data;}
@@ -59,11 +59,12 @@ int main(){
     st.push(3);
     cout << st.getTop() << "\n";  // prints 3
 
-    st.push(4);
+    st.push(4); 
     st.push(5);
     cout << st.getTop() << "\n";  // prints 5
 
     st.push(8); // should trigger Overflow
+    st.push(9);
 
     return 0;
 }
