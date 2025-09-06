@@ -9,7 +9,7 @@ struct Node {
 
 void printList(Node* head) {
     while (head) {
-        cout << head->data << " ";
+        cout << head->data << " ";          
         head = head->next;
     }
     cout << endl;
