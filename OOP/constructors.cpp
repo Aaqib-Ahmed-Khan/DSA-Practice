@@ -1,5 +1,25 @@
-//
-// Created by aaqib on 9/7/25.
-//
+#include <iostream>
+using namespace std;
 
-#include "constructors.h"
+class Person {
+private:
+    string name;
+    int age;
+
+public:
+    Person(string n, int a) {
+        name = n;
+        age = a;
+    }
+
+    void display() {
+        cout << "Name: " << name << endl;
+        cout << "Age: " << age << endl;
+    }
+};
+
+int main() {
+    Person person1("Aaqib Ahmed Khan", 21);
+    person1.display();
+    return 0;
+}
