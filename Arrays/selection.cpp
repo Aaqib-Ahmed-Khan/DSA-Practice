@@ -16,4 +16,10 @@ int main() {
         swap(a[i],a[min]);
 
 }}
+    for (int i = 0; i < n; i++) {
+        cout << a[i] << " ";
+    }
+    cout << endl;
 
+    return 0;
+}
