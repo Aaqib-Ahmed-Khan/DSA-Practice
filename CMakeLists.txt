@@ -10,7 +10,8 @@ add_executable(class_example OOP/class_example.cpp
         "Linked_list again practice/first.h"
         Pointers/pointer2.cpp
         Pointers/ptrfunc.cpp
-        Arrays/selection.cpp)
+        Arrays/selection.cpp
+        Vectors/vector2.cpp)
 
 # Student example
 add_executable(student_example OOP/student_example.cpp)
