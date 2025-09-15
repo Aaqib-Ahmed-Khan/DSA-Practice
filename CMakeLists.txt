@@ -12,7 +12,8 @@ add_executable(class_example OOP/class_example.cpp
         Pointers/ptrfunc.cpp
         Arrays/selection.cpp
         Vectors/vector2.cpp
-        Vectors/vector3.cpp)
+        Vectors/vector3.cpp
+        Linked_List/reverse_linkedlist.cpp)
 
 # Student example
 add_executable(student_example OOP/student_example.cpp)
