@@ -4,7 +4,8 @@ project(DSA_Practice)
 set(CMAKE_CXX_STANDARD 17)
 
 # Car example
-add_executable(class_example OOP/class_example.cpp
+add_executable(class_example
+        OOP/class_example.cpp
         OOP/constructors.cpp
         OOP/constructors.h
         "Linked_list again practice/first.h"
@@ -13,7 +14,11 @@ add_executable(class_example OOP/class_example.cpp
         Arrays/selection.cpp
         Vectors/vector2.cpp
         Vectors/vector3.cpp
-        Linked_List/reverse_linkedlist.cpp)
+        Linked_List/insertion.cpp
+)
 
 # Student example
 add_executable(student_example OOP/student_example.cpp)
+
+# Reverse linked list example
+add_executable(reverse_list Linked_List/reverse_list.cpp)
