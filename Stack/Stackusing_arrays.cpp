@@ -5,17 +5,24 @@ class Stack{
 int capacity;
 int* arr;
 int top;
+    int size;
 public:
-Stack(int c){
-    this->capacity=c;
-    arr= new int[c];
-    this->top=-1;
-
+Stack(int s){
+   size=s;
+    top=-1;
+    arr=new int(s);
 }
-void push(int data){
-    if(this->top == this->capacity -1){
-        cout<<"overflow\n";
-        return; 
+    // push
+void push(int value){
+    if(top==size-1) {
+        cout<<"Stack overflow";
+
+        return;
+    }
+    else {
+        top++;
+        arr[top]=value;
+        cout<<"Pushed"<<value<<"into the stack\n";
     }
     this->top++;
     this->arr[this->top]=data;}
