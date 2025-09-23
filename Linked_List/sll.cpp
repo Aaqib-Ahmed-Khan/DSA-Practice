@@ -1,12 +1,14 @@
-// simple traversal function for a singly linked list
-
 #include <iostream>
 using namespace std;
 
 struct Node {
     int data;
     Node* next;
-    Node(int v) : data(v), next(nullptr) {}
+
+    Node(int v) {
+        data = v;
+        next = nullptr;
+    }
 };
 
 void traverse(Node* head) {
@@ -19,10 +21,13 @@ void traverse(Node* head) {
 }
 
 int main() {
-
     Node* head = new Node(10);
-    head->next = new Node(20);
-    head->next->next = new Node(30);
+    Node* second = new Node(20);
+    Node* third = new Node(30);
+
+    head->next = second;
+    second->next = third;
+
     traverse(head);
 
     return 0;
