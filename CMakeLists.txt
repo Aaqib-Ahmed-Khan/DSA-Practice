@@ -22,3 +22,5 @@ add_executable(student_example OOP/student_example.cpp)
 
 # Reverse linked list example
 add_executable(reverse_list Linked_List/reverse_list.cpp)
+add_executable(Practice_2.0 binary_search/binary_search.cpp)
+
