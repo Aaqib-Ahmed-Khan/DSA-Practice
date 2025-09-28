@@ -19,7 +19,7 @@ int BinarySearch(int arr[], int size, int key) {
 int main() {
     int arr[1000];
     int n;
-    cout<<"enter the numebr of elements inarray";
+    cout<<"enter the number of elements inarray";
     cin>>n;
     for (int i=0;i<n;i++)
         cin>>arr[i];
