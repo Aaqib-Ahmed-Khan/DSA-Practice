@@ -25,3 +25,4 @@ add_executable(reverse_list Linked_List/reverse_list.cpp)
 add_executable(Practice_2.0 binary_search/binary_search.cpp)
 add_executable(Arrays shell_sort/shell_sort.cpp)
 
+add_executable(Arrays shell_sort_q1/shell_sort_q1.cpp)
