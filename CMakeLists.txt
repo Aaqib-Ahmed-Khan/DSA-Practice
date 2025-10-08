@@ -26,3 +26,4 @@ add_executable(Practice_2.0 binary_search/binary_search.cpp)
 add_executable(Arrays shell_sort/shell_sort.cpp)
 
 add_executable(Arrays shell_sort_q1/shell_sort_q1.cpp)
+add_executable(Arrays Q_linked list/Q_linked list.cpp)
