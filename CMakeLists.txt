@@ -27,3 +27,4 @@ add_executable(Arrays shell_sort/shell_sort.cpp)
 
 add_executable(Arrays shell_sort_q1/shell_sort_q1.cpp)
 add_executable(Arrays Q_linked list/Q_linked list.cpp)
+add_executable(Arrays bubble_sort/bubble_sort.cpp)
